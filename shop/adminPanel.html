@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eugene Shop</title>
+  </head>
+  <link rel="stylesheet" href="./style/adminPanel.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="./main.html" class="link-logo">Eugene Shop</a>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./main.html" class="nav-link">Main</a>
+          </li>
+          <li class="nav-item">
+            <a href="./favorite.html" class="nav-link">Favorite</a>
+          </li>
+          <li class="nav-item">
+            <a href="./cart.html" class="nav-link">Cart</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-product">
+        <div class="product-container js-container">
+          <button type="button" class="btn-add__product js-addProduct">
+            Add a new product
+          </button>
+          <ul class="product-list js-list"></ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copyright">© Eugene, 2024.</p>
+    </footer>
+    <script type="module" src="./js/adminPanel.js"></script>
+  </body>
+</html>

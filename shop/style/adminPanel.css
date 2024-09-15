@@ -1,0 +1,113 @@
+.section-product {
+    margin: 50px 0px;
+}
+
+.product-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+
+.product-item {
+    border: 2px solid black;
+    margin: 0px 20px 20px 0px;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.1);
+}
+
+.product-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img {
+    display: block;
+    width: 250px;
+}
+
+.product-title {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    width: 250px;
+    text-align: center;
+}
+
+.product-container__btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    margin-right: -20px;
+}
+
+.product-btn {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-btn:hover {
+    background-color: green;
+}
+.add-modal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.add-modal form div {
+    margin-bottom: 15px;
+}
+
+.add-modal label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.add-modal input[type="text"],
+.add-modal textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.add-modal textarea {
+    height: 100px;
+    resize: none;
+}
+
+.add-modal button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.add-modal input[type="submit"]:hover {
+    background-color: #0056b3;
+}
